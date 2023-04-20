@@ -24,7 +24,7 @@
 }
 
 .text-blue {
-    color: blue;
+    color: #2c89c9;
 }
 
 /* Header */
@@ -52,8 +52,10 @@ p {
 }
 
 .column {
-   width: calc(100% / 3);
+   width: calc(100% / 3 - 10px);
    background-color: var(--bkg-color-black);
+   float: left;
+   margin: 0 5px;
 }
 
 .column::after {
