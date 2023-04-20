@@ -9,8 +9,34 @@
 /* Properties */
 
 :root {
-    
+   --bkg-color-black: #000000 
 }
 
 
 /* Utilities */
+
+
+
+/* Header */
+
+h1 {
+    color: #e53170;
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+
+/* Generic */
+
+.container{
+    max-width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Main */
+
+p {
+    font-size: 20px;
+}
