@@ -57,14 +57,14 @@ p {
     padding: 40px 0;
 }
 
-.column {
+.card {
    width: calc(100% / 3 - 10px);
    background-color: var(--bkg-color-black);
    float: left;
    margin: 5px 5px;
 }
 
-.column::after {
+.card::after {
     content: '';
     display: block;
     clear: both;
@@ -78,11 +78,10 @@ img {
 
 span {
     display: block;
-    line-height: calc(80px / 3);
 }
 
 span,h2 {
-    vertical-align: middle;
+    line-height: calc(80px / 3);
 }
 
 h2 {
